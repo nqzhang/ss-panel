@@ -7,11 +7,12 @@ if(isset($_COOKIE['uid'])|| $_COOKIE['uid'] != ''){
         $user_pwd  = $_COOKIE['user_pwd'];
 
         $U = new \Ss\User\UserInfo($uid);
+
         //验证cookie
         $pwd = $U->GetPasswd();
         $pw = \Ss\User\Comm::CoPW($pwd);
         if($pw != $user_pwd){
-            header("Location:login.php");
+	    header("Location:login.php");
         }
         if(!$U->isAdmin()){
             header("Location:../user/index.php");

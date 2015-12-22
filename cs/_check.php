@@ -13,7 +13,7 @@ if(isset($_COOKIE['uid'])|| $_COOKIE['uid'] != ''){
         if($pw != $user_pwd){
             header("Location:login.php");
         }
-        if(!$U->isAdmin()){
+        if(!$U->isCs()){
             header("Location:../user/index.php");
         }
 }else{

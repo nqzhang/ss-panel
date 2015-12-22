@@ -93,9 +93,15 @@ class UserInfo {
     }
 
     function isAdmin(){
-        if($this->db->has("ss_user_admin",[
-            "uid" => $this->uid
-        ])){
+        if($this->db->has("ss_user_admin",["uid" => $this->uid])){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    function isCs(){
+        if($this->db->has("ss_user_cs",["uid" => $this->uid])){
             return true;
         }else{
             return false;

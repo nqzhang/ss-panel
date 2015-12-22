@@ -45,7 +45,8 @@ $unix_time = $oo->get_last_unix_time();
                         </div><!-- /.box-header -->
                         <div class="box-body">
                             <p>流量每月重置，免费用户每月免费赠送1G流量，也可以通过签到获取流量。</p> 
-                            <p>流量可以通过签到获取, 或者通过购买套餐获取。</p> 
+                            <p>流量可以通过签到获取, 或者通过购买套餐获取。</p>
+                            <p>如有疑问可以联系客服，客服QQ群：203708229</p> 
                         </div><!-- /.box-body -->
                     </div><!-- /.box -->
                 </div><!-- /.col (right) -->

@@ -37,9 +37,9 @@ require_once '_main.php'; ?>
                         <div class="box-body">
                             <div class="callout callout-info">
                                 <h4>说明</h4>
-                                <p>扫描二维码支付任意金额后，联系管理员，说明<br><strong>支付宝用户名，充值金额，充值时间，要充值的用户名</strong><br>由管理员进行充值操作</p>
+                                <p>扫描二维码支付任意金额后，联系客服（QQ群：203708229），说明<br><strong>支付宝用户名，充值金额，充值时间，要充值的用户名</strong><br>由管理员进行充值操作</p>
                             </div>
-                        <img src="../asset/img/alipay.jpg">
+                        <img style="width:300px;height:350px" src="../asset/img/alipay.jpg">
                         </div>
                     </div>
                 </div>
